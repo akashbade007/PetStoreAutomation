@@ -21,6 +21,10 @@ public class DDTests {
 
         Response response = UserEndpoints.CreateUser(userPayload);
         Assert.assertEquals(response.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 200);
+        
     }
 
     @Test(priority = 2, dataProvider = "UserNames", dataProviderClass = DataProviders.class)

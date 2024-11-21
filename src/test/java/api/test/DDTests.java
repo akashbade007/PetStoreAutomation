@@ -28,6 +28,6 @@ public class DDTests {
     public void testDeleteUserByName(String userName) {
         Response response = UserEndpoints.DeleteUser(userName);
         Assert.assertEquals(response.getStatusCode(), 200);
-        System.out.println("Testing");
+        
     }
 }
